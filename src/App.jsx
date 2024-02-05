@@ -35,6 +35,12 @@ function App() {
           >
             Blue
           </button>
+          <button
+            onClick={() => setColor('olive')}
+            className='bg-blue-700 outline-none px-4 py-1 rounded-full shadow-lg text-white'
+          >
+            Reset
+          </button>
         </div>
       </div>
     </div>
